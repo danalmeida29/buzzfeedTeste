@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    margin-bottom: 50px; 
+}
+.position{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ margin-right: 10px;
+}
+.card{
+    box-shadow: black 6px 4px 12px 0px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    background-color: #8b00b9;
+    border: solid 1px #8206f5;
+    width: 570px;
+    height: 150px;
+  .text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    h1{
+        color: white;
+        margin-bottom: 15px;
+    }
+    span{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: black;
+    }
+  }
+    img{
+        width: 160px;
+        height: 148px;
+        border-right: solid 1px #a19898;
+    }
+}

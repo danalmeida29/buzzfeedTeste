@@ -1,13 +1,15 @@
-import { Component, OnInit, Input } from '@angular/core';
-import quiz_questions from '../../../assets/data/quiz_questions.json';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import quiz_role from '../../../assets/data/quiz_vcNoRole.json'
+
 @Component({
-  selector: 'app-quiz',
-  templateUrl: './quiz.component.html',
-  styleUrls: ['./quiz.component.scss']
+  selector: 'app-quiz-role',
+  templateUrl: './quiz-role.component.html',
+  styleUrls: ['./quiz-role.component.scss']
 })
-export class QuizComponent implements OnInit {
-  @Input()
+export class QuizRoleComponent implements OnInit {
+
+  constructor() { }
+
   title: string = "";
 
   questions: any;
@@ -19,14 +21,13 @@ export class QuizComponent implements OnInit {
   answerSelected: string = "";
 
   finished: boolean = false;
-  
-  constructor(private router: Router) { }
+
 
   ngOnInit(): void {
-    if(quiz_questions){
+    if(quiz_role){
       this.finished = false
-      this.title = quiz_questions.title
-      this.questions = quiz_questions.questions
+      this.title = quiz_role.title
+      this.questions = quiz_role.questions
       this.questionSelected = this.questions[this.questionIndex]
 
       this.questionIndex = 0
@@ -51,7 +52,7 @@ export class QuizComponent implements OnInit {
     }else{
       const finalAnswer: string = await this.checkResult(this.answers)
       this.finished = true
-      this.answerSelected = quiz_questions.results[finalAnswer as keyof typeof quiz_questions.results]
+      this.answerSelected = quiz_role.results[finalAnswer as keyof typeof quiz_role.results]
     }
   }
 /**
@@ -70,5 +71,6 @@ export class QuizComponent implements OnInit {
 
     return result
   }
+
 
 }

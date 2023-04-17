@@ -1,13 +1,16 @@
-import { Component, OnInit, Input } from '@angular/core';
-import quiz_questions from '../../../assets/data/quiz_questions.json';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import quiz_dcMarvel from '../../../assets/data/quiz_dcMarvel.json'
+
 @Component({
-  selector: 'app-quiz',
-  templateUrl: './quiz.component.html',
-  styleUrls: ['./quiz.component.scss']
+  selector: 'app-quiz-dc-marvel',
+  templateUrl: './quiz-dc-marvel.component.html',
+  styleUrls: ['./quiz-dc-marvel.component.scss']
 })
-export class QuizComponent implements OnInit {
-  @Input()
+export class QuizDcMarvelComponent implements OnInit {
+
+
+  constructor() { }
+
   title: string = "";
 
   questions: any;
@@ -19,14 +22,13 @@ export class QuizComponent implements OnInit {
   answerSelected: string = "";
 
   finished: boolean = false;
-  
-  constructor(private router: Router) { }
+
 
   ngOnInit(): void {
-    if(quiz_questions){
+    if(quiz_dcMarvel){
       this.finished = false
-      this.title = quiz_questions.title
-      this.questions = quiz_questions.questions
+      this.title = quiz_dcMarvel.title
+      this.questions = quiz_dcMarvel.questions
       this.questionSelected = this.questions[this.questionIndex]
 
       this.questionIndex = 0
@@ -51,7 +53,7 @@ export class QuizComponent implements OnInit {
     }else{
       const finalAnswer: string = await this.checkResult(this.answers)
       this.finished = true
-      this.answerSelected = quiz_questions.results[finalAnswer as keyof typeof quiz_questions.results]
+      this.answerSelected = quiz_dcMarvel.results[finalAnswer as keyof typeof quiz_dcMarvel.results]
     }
   }
 /**
@@ -70,5 +72,6 @@ export class QuizComponent implements OnInit {
 
     return result
   }
+
 
 }

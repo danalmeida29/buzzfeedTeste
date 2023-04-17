@@ -1,0 +1,131 @@
+{
+  "title":"Você é Marvel ou DC?",
+  "questions":[
+    
+    {
+      "id":1,
+      "question": "Qual dessas heróinas ganharia uma luta entre elas?",
+      "options":[
+        {"id": 1, "name":"Mulher-Maravilha", "alias":"A"},
+        {"id": 2, "name":"SuperGirl", "alias":"A"},
+        {"id": 3, "name":"Capitã Marvel", "alias":"B"},
+        {"id": 4, "name":"Feiticeira Escarlate", "alias":"B"},
+        {"id": 5, "name":"Ravena", "alias":"A"},
+        {"id": 6, "name":"Jean Grey", "alias":"B"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Quem você escolheria para seu time de herói?",
+      "options":[
+        {"id": 1, "name":"Batman", "alias":"A"},
+        {"id": 2, "name":"Capitão America", "alias":"B"},
+        {"id": 3, "name":"Home-Aranha", "alias":"B"},
+        {"id": 4, "name":"Arqueiro verde", "alias":"A"},
+        {"id": 5, "name":"Gavião arqueiro", "alias":"B"},
+        {"id": 6, "name":"Super choque", "alias":"A"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Quem é o melhor lider de equeipe?",
+      "options":[
+        {"id": 1, "name":"Superman", "alias":"A"},
+        {"id": 2, "name":"Homem de ferro", "alias":"B"},
+        {"id": 3, "name":"Capitão America", "alias":"B"},
+        {"id": 4, "name":"Batman", "alias":"A"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Qual desses mestre de artes marcial você chamaria?",
+      "options":[
+        {"id": 1, "name":"Demolidor", "alias":"B"},
+        {"id": 2, "name":"Batman", "alias":"A"},
+        {"id": 3, "name":"Exterminador", "alias":"A"},
+        {"id": 4, "name":"Punho de ferro", "alias":"B"},
+        {"id": 5, "name":"Viuva negra", "alias":"B"},
+        {"id": 6, "name":"Damian Wayne", "alias":"A"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Qual é o mais forte?",
+      "options":[
+        {"id": 1, "name":"Thor", "alias":"B"},
+        {"id": 2, "name":"Superman", "alias":"A"},
+        {"id": 3, "name":"Hulk", "alias":"B"},
+        {"id": 4, "name":"Shazam", "alias":"A"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Qual vilão é o seu favorito",
+      "options":[
+        {"id": 1, "name":"Coringa", "alias":"A"},
+        {"id": 2, "name":"Thanos", "alias":"B"},
+        {"id": 3, "name":"Darkseid", "alias":"A"},
+        {"id": 4, "name":"Doende verde", "alias":"B"},
+        {"id": 5, "name":"Magneto", "alias":"B"},
+        {"id": 6, "name":"Lex Luthor", "alias":"A"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Qual anti-herói você escolhe?",
+      "options":[
+        {"id": 1, "name":"Justiceiro", "alias":"B"},
+        {"id": 2, "name":"Adão Negro", "alias":"A"},
+        {"id": 3, "name":"Deadpool", "alias":"B"}, 
+        {"id": 4, "name":"Exterminador", "alias":"A"},
+        {"id": 5, "name":"Wolverine", "alias":"B"},
+        {"id": 6, "name":"Capuz Vermelho", "alias":"A"}
+        
+      ]
+    },
+    {
+      "id":8,
+      "question": "Quem é o mais inteligente?",
+      "options":[
+        {"id": 1, "name":"Batman", "alias":"A"},
+        {"id": 2, "name":"Homem de ferro", "alias":"B"},
+        {"id": 3, "name":"Lex Luthor", "alias":"A"},
+        {"id": 4, "name":"Sr. Fantástico", "alias":"B"},
+        {"id": 1, "name":"Dr Manhattan", "alias":"A"},
+        {"id": 6, "name":"Fera", "alias":"B"}
+      ]
+    },
+    {
+      "id":9,
+      "question": "Qual é a sua equipe favorita?",
+      "options":[
+        {"id": 1, "name":"Guardiões da Galáxia", "alias":"B"},
+        {"id": 2, "name":"Esquadrão Suicida", "alias":"A"},
+        {"id": 3, "name":"X-men", "alias":"B"},
+        {"id": 4, "name":"Jovens Titãs", "alias":"A"},
+        {"id": 5, "name":"Quarteto fantástico", "alias":"B"},
+        {"id": 6, "name":"Sociedade da Justiça", "alias":"A"}
+      ]
+    },
+    {
+      "id":10,
+      "question": "Quem é o mais Poderoso?",
+      "options":[
+        {"id": 1, "name":"Sentinela", "alias":"B"},
+        {"id": 2, "name":"Dr Manhattan", "alias":"A"}
+      ]
+    },
+    {
+      "id":11,
+      "question": "Qual equipe é a mais Poderosa do mundo?",
+      "options":[
+        {"id": 1, "name":"Os Vingadores", "alias":"B"},
+        {"id": 2, "name":"Liga da Justiça", "alias":"A"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você é do time DC! Seja bem vindo a Liga da Justiça",
+    "B": "Você é do time Marvel! Seja bem vindo aos Vingadores"
+  }
+}
