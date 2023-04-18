@@ -1,0 +1,74 @@
+{
+  "title":"Você é rolezeiro?",
+  "questions":[
+    
+    {
+      "id":1,
+      "question": "Como foi sua última sexta-feira?",
+      "options":[
+        {"id": 1, "name":"Animada", "alias":"A"},
+        {"id": 2, "name":"Deliciosa", "alias":"A"},
+        {"id": 3, "name":"Perfeita", "alias":"A"},
+        {"id": 4, "name":"Cansativa", "alias":"B"},
+        {"id": 5, "name":"De baixo do coberto", "alias":"B"},
+        {"id": 6, "name":"Prefiro não comentar", "alias":"B"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Você é mais do rolê...",
+      "options":[
+        {"id": 1, "name":"Barzinho", "alias":"A"},
+        {"id": 2, "name":"Parque", "alias":"B"},
+        {"id": 3, "name":"Balada", "alias":"A"},
+        {"id": 4, "name":"Prefiro ficar em casa", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Você no rolê é do tipo que...",
+      "options":[
+        {"id": 1, "name":"Conversa com todo mundo", "alias":"A"},
+        {"id": 2, "name":"Fica no canto só observando", "alias":"B"},
+        {"id": 3, "name":"Só quer ir embora", "alias":"B"},
+        {"id": 4, "name":"O animado do rolê", "alias":"A"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Você é do grupo:",
+      "options":[
+        {"id": 1, "name":"Babá dos amigos", "alias":"B"},
+        {"id": 2, "name":"Beber até cair", "alias":"A"},
+        {"id": 3, "name":"Dança até Cansar", "alias":"A"},
+        {"id": 4, "name":"Camisa 10 (da ideia em todo mundo)", "alias":"A"},
+        {"id": 5, "name":"Vou na próxima", "alias":"B"},
+        {"id": 6, "name":"Não bebo e não danço", "alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "O que você prefere:",
+      "options":[
+        {"id": 1, "name":"Ficar sentado o rolê todo ", "alias":"B"},
+        {"id": 2, "name":"Dançar até não aguentar mais", "alias":"A"},
+        {"id": 3, "name":"Dar ideia em todo mundo ", "alias":"A"},
+        {"id": 4, "name":"Ficar bebendo o rolê inteiro", "alias":"A"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Você é do tipo",
+      "options":[
+        {"id": 1, "name":"Inimigos do fim...", "alias":"A"},
+        {"id": 2, "name":"Em casa antes das 0hr", "alias":"B"},
+        {"id": 3, "name":"Que topa tudo", "alias":"A"},
+        {"id": 4, "name":"Eu nem saio de casa", "alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você é 100% um rolezeiro!",
+    "B": "Você muito provavelmente é um(a) idoso(a)! Procure um médico"
+  }
+}
